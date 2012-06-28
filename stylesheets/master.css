@@ -1,0 +1,96 @@
+body {
+    font-family: Rockwell, Verdana, sans-serif;
+    letter-spacing: 0em;
+    color: #353B40;
+    margin: 10px;
+    padding: 0px;
+    font-size: 1.1em;
+	background-color: #E9EBDD;
+}
+
+body a {
+    color: #DB7A46;
+    text-decoration: none;
+}
+
+body a:hover{
+    color: inherit;
+    text-decoration: underline;
+}
+
+#emberArea {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+    margin: 10px;
+	overflow: scroll;
+}
+
+#activityMainArea {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: scroll;
+
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    background: #fff;
+    padding: 15px;
+    margin: 15px;
+}
+
+#activityMainArea h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#activityMainArea .activityDateContent {
+    padding: 15px;
+    margin: 15px;
+}
+
+#activityMainArea .datebookContents {
+    border-bottom: 1px dashed #3f3f3f;
+}
+
+.floatRight {
+    float:right;
+}
+
+.floatLeft {
+    float:left;
+}
+
+.rightArrow {
+    content: '';
+    float: left;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    margin-right: 11px;
+    margin-top: 3px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid black;
+}
+
+.downArrow {
+    content: '';
+    float: left;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid black;
+}
+
+.hand {
+    cursor: pointer;
+}
